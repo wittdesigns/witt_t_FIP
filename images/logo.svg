@@ -2,9 +2,9 @@
 <svg
    id="Layer_2"
    data-name="Layer 2"
-   viewBox="0 0 1819.74 1006.78"
+   viewBox="0 0 2265.93 561.07"
    version="1.1"
-   sodipodi:docname="one_time_transp.svg"
+   sodipodi:docname="logo.svg"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -19,9 +19,9 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="0.58140174"
-     inkscape:cx="909.01"
-     inkscape:cy="503.09447"
+     inkscape:zoom="0.46691647"
+     inkscape:cx="1185.4369"
+     inkscape:cy="279.49325"
      inkscape:window-width="3440"
      inkscape:window-height="1369"
      inkscape:window-x="2552"
@@ -46,81 +46,59 @@
         stroke-width: 11px;
       }
     </style>
-    <pattern
-       id="EMFhbasepattern"
-       patternUnits="userSpaceOnUse"
-       width="6"
-       height="6"
-       x="0"
-       y="0" />
   </defs>
+  <line
+     id="Line_7"
+     data-name="Line 7"
+     class="cls-3"
+     x1="572.55"
+     y1="340.68"
+     x2="2172.33"
+     y2="340.68" />
+  <g
+     id="Polygon_1"
+     data-name="Polygon 1">
+    <path
+       class="cls-1"
+       d="m 2057.45,436.03 v -190.7 l 198.65,95.35 z"
+       id="path7" />
+    <path
+       class="cls-2"
+       d="M 2246.26,340.68 2061.7,252.09 v 177.18 l 184.56,-88.59 m 19.66,0 -212.74,102.11 V 238.57 Z"
+       id="path9" />
+  </g>
   <g
      inkscape:groupmode="layer"
      id="layer1"
-     inkscape:label="Layer 1">
+     inkscape:label="text">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-size:336.099px;line-height:125%;font-family:'Segoe UI';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.741429"
-       x="72.676346"
-       y="494.89215"
-       id="text918"
-       transform="scale(0.9822215,1.0181003)"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:361.241px;line-height:1.25;font-family:'Fugaz One';-inkscape-font-specification:'Fugaz One';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.08372"
+       x="621.86542"
+       y="310.32883"
+       id="text3165"
+       transform="scale(0.99379178,1.006247)"><tspan
          sodipodi:role="line"
-         x="72.676346"
-         y="494.89215"
-         id="tspan916"
-         style="stroke-width:0.741429"><tspan
-           dx="0"
-           dy="0"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:336.099px;font-family:'Segoe UI';fill:#feffff;stroke-width:0.741429"
-           id="tspan914">One Time</tspan></tspan></text>
+         id="tspan3163"
+         x="621.86542"
+         y="310.32883"
+         style="stroke-width:1.08372;fill:#ffffff">On Time</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="text 2">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-size:151.252px;line-height:125%;font-family:'Segoe UI';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.741429"
-       x="173.75784"
-       y="705.21082"
-       id="text932"
-       transform="scale(0.9822215,1.0181003)"><tspan
+       style="font-style:normal;font-weight:normal;font-size:154.286px;line-height:1.25;font-family:sans-serif;fill:#fd8a23;fill-opacity:1;stroke:none;stroke-width:3.85714"
+       x="667.41602"
+       y="477.35431"
+       id="text15218"
+       transform="scale(1.0076133,0.99244423)"><tspan
          sodipodi:role="line"
-         x="173.75784"
-         y="705.21082"
-         id="tspan930"
-         style="stroke-width:0.741429"><tspan
-           dx="0"
-           dy="0"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:151.252px;font-family:'Segoe UI';fill:#f68a29;stroke-width:0.741429"
-           id="tspan920">TRANSPO</tspan><tspan
-           dx="0"
-           dy="0"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:151.252px;font-family:'Segoe UI';fill:#f68a29;stroke-width:0.741429"
-           id="tspan922">R</tspan><tspan
-           dx="-6.6887898"
-           dy="0"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:151.252px;font-family:'Segoe UI';fill:#f68a29;stroke-width:0.741429"
-           id="tspan924">T</tspan><tspan
-           dx="-10.291672"
-           dy="0"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:151.252px;font-family:'Segoe UI';fill:#f68a29;stroke-width:0.741429"
-           id="tspan926">A</tspan><tspan
-           dx="-10.565846"
-           dy="0"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:151.252px;font-family:'Segoe UI';fill:#f68a29;stroke-width:0.741429"
-           id="tspan928">TION</tspan></tspan></text>
-    <path
-       style="fill:none;stroke:#f68a29;stroke-width:10.8743px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 92.260711,559.70867 H 1645.6126"
-       id="path934" />
-    <path
-       style="fill:#feffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.741429"
-       d="M 1534.1908,655.57451 V 463.59123 l 192.7428,96.11744 z"
-       id="path936" />
-    <path
-       style="fill:#f68a29;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.741429"
-       d="m 1717.4664,559.70867 -179.1489,-89.32379 v 178.39598 z m 19.1772,0 -206.5795,102.65948 V 456.79759 Z"
-       id="path938" />
-    <path
-       style="fill:none;stroke:none;stroke-width:0.741429"
-       d="m 1717.4664,559.70867 -179.1489,-89.32379 v 178.39598 l 179.1489,-89.07219 m 19.1772,0 -206.5795,102.65948 V 456.79759 l 206.5795,102.91108"
-       id="path940" />
+         id="tspan15216"
+         x="667.41602"
+         y="477.35431"
+         style="fill:#fd8a23;fill-opacity:1;stroke-width:3.85714">TRANPORTATION</tspan></text>
   </g>
 </svg>

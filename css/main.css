@@ -67,7 +67,7 @@ you work on and the intended audience */
 }
 
 #header-con {
-	background-color: #ddd;
+	background-color: #1f1f1f;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -75,20 +75,114 @@ you work on and the intended audience */
 #header-box1 {
 	grid-column: 1/3;
 	/* Remove as content will dictate height */
-	height: 80px;
+	height: 50px;
 }
+
+.logo {
+	grid-column: 1/4;
+	margin-top:25px;
+	object-fit: cover;
+	width: 70%;
+	height: 100%;
+
+ }
+
+
+
+ 
 
 #main-nav {
-	grid-column: 3/11;
-	/* Remove as content will dictate height */
-	height: 80px;
-}
+		grid-column: 6/11;
+		margin:0;
+		margin-top:10px;
+		margin-left:30px;
+		height:25px;
+		font-size: 18px;
+	 }
 
-#header-box2 {
-	grid-column: 11/-1;
-	/* Remove as content will dictate height */
-	height: 80px;
-}
+
+	 #main-nav ul {
+		margin-top: 35px;
+		margin-left: 30px;
+		padding:0;
+	 }
+	 
+	 #main-nav li {
+	 display:inline;
+	 margin-right: 28px;
+	 }
+	 
+	 #main-nav li:last-child {
+		margin-right: 0;
+	 }
+	 
+	 #main-nav li a {
+		color:#FDFDFD;
+	 }
+	 
+	 #main-nav li a:hover {
+	  padding-bottom: 8px;
+	  border-bottom: 3px solid #FD8A23;
+	 }
+	 
+	 /* look for an element that already has the class 'active' attached to it*/
+	 #main-nav li a.active {
+		padding-bottom: 8px;
+		border-bottom: 3px solid #FD8A23;
+	 }
+
+
+
+#contact-now-top  {
+		grid-column: 12/-1;
+
+		margin-right: -15px;
+		margin-bottom: -1px;
+		}
+
+
+
+
+.contact-now h3 {
+			background-color: #FD8A23;
+			color:#fff;
+			font-size: 18px;
+			justify-content: center;
+			align-items: center;
+			display:flex;
+			margin-top: 27px;
+			width: 150px;
+			height: 50px;
+
+		 }
+
+
+
+
+
+
+
+
+		 
+ .contact-now h3:hover {
+			background-color: #626262;
+		 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Specific to index page desktop  */
 
