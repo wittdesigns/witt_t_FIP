@@ -5,7 +5,7 @@
 
 .box-color {
 	color: #fff;
-	background: #000;
+	background: rgba(0,0,0,0.40);
 	text-align: center;
 	margin: 0;
 }
@@ -55,6 +55,7 @@ you work on and the intended audience */
 #container {
 	margin: 0 auto;
 	width: 1920px;
+	background-color: #626262;
 }
 
 /* this is our grid based off of our XD file */
@@ -66,44 +67,38 @@ you work on and the intended audience */
 	padding-right: 140px;
 }
 
+
+
+/*header starts here */
+
 #header-con {
 	background-color: #1f1f1f;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
-#header-box1 {
-	grid-column: 1/3;
-	/* Remove as content will dictate height */
-	height: 50px;
-}
 
 .logo {
 	grid-column: 1/4;
+	height: 80px;
 	margin-top:25px;
 	object-fit: cover;
 	width: 70%;
-	height: 100%;
-
- }
-
-
-
- 
+ } 
 
 #main-nav {
-		grid-column: 6/11;
+		grid-column: 3/11;
+		height:80px;
 		margin:0;
 		margin-top:10px;
 		margin-left:30px;
-		height:25px;
 		font-size: 18px;
 	 }
 
 
 	 #main-nav ul {
 		margin-top: 35px;
-		margin-left: 30px;
+		margin-left: 125px;
 		padding:0;
 	 }
 	 
@@ -125,7 +120,6 @@ you work on and the intended audience */
 	  border-bottom: 3px solid #FD8A23;
 	 }
 	 
-	 /* look for an element that already has the class 'active' attached to it*/
 	 #main-nav li a.active {
 		padding-bottom: 8px;
 		border-bottom: 3px solid #FD8A23;
@@ -134,10 +128,11 @@ you work on and the intended audience */
 
 
 #contact-now-top  {
-		grid-column: 12/-1;
-
+		grid-column: 11/-1;
+		height: 80px;
 		margin-right: -15px;
 		margin-bottom: -1px;
+		margin-left: 112px;
 		}
 
 
@@ -155,39 +150,23 @@ you work on and the intended audience */
 			height: 50px;
 			transition-duration: 0.4s;
 			border-radius: 4px;
-
 		 }
-
-
-
-
-
-
-
-
 		 
  .contact-now h3:hover {
 			background-color: #626262;
 			box-shadow: 0 8px 16px 0 rgba(250, 250, 250, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 		 }
 
+/*end of header and nav bar*/
 
 
 
+/* Specific to index page desktop - Hero  */
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* Specific to index page desktop  */
+#hero-image {
+	grid-column: 8/-1;
+	height: 582px;
+}
 
 #hero {
 	margin-top: 100px;
@@ -195,14 +174,76 @@ you work on and the intended audience */
 
 #hero-text {
 	grid-column: 1/8;
-	/* Remove as content will dictate height */
 	height: 582px;
 }
 
-#hero-image {
-	grid-column: 8/-1;
-	/* Remove as content will dictate height */
-	height: 582px;
+#hero-text p {
+	font-size: 25px;
+	margin-top: 35px;
+	padding-top: 15px;
+	padding-left: 10px;
+	text-align: left;
+}
+
+
+.hero-img-h2 {
+	font-size: 32px;
+}
+
+.hero-img-h2 span, .hero-img-h3 span {	
+	color: #FD8A23;
+	font-size: 32px;
+	text-align: left;
+	margin-top: 115px;
+	padding-top: 115px;
+	text-decoration: none;
+ }
+
+.ourservicesbt {
+	background-color: #FD8A23;
+	color:#fff;
+	font-size: 18px;
+	justify-content: center;
+	align-items: center;
+	display:flex;
+	margin-top: 40px;
+	width: 155px;
+	height: 50px;
+	transition-duration: 0.4s;
+	border-radius: 4px;
+	position: relative;
+	padding-top: 25p;
+ }
+
+ .ourservicesbt:hover {
+	background-color: #626262;
+	box-shadow: 0 8px 16px 0 rgba(250, 250, 250, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ }
+
+
+
+/*product gallery starts here*/
+
+#products h2 {
+	grid-column: 1/-1;
+	height: auto;
+	text-align: center;
+}
+
+.whitetext{
+	font-size: 25px;
+	color: #dadada;
+}
+
+ .textor{
+	font-size: 25px;
+	color: #FD8A23;
+ }
+
+
+ #product1 {
+	grid-column: 1/5;
+	height: 507px;
 }
 
 #products {
@@ -210,31 +251,33 @@ you work on and the intended audience */
 	margin-bottom: 100px;
 }
 
-#products h2 {
-	grid-column: 1/-1;
-	text-align: center;
-}
-
-#product1 {
-	grid-column: 1/5;
-	/* Remove as content will dictate height */
-	height: 507px;
-}
 
 #product2 {
 	grid-column: 5/9;
-	/* Remove as content will dictate height */
 	height: 507px;
 }
 
 #product3 {
 	grid-column: 9/-1;
-	/* Remove as content will dictate height */
 	height: 507px;
 }
 
 .product-box {
 	background-color: #ddd;
+}
+
+
+/*our team starts here */
+#about-text {
+	grid-column: 1/8;
+	/* Remove as content will dictate height */
+	height: 714px;
+}
+
+
+#about-title {
+	font-size: 30px;
+	color: #FDFDFD;
 }
 
 #about-con {
@@ -247,16 +290,25 @@ you work on and the intended audience */
 	text-align: center;
 }
 
-#about-text {
-	grid-column: 1/8;
-	/* Remove as content will dictate height */
+/*our team image goes here*/
+ #about-image {
+	grid-column: 8/-1;
 	height: 700px;
 }
 
-#about-image {
-	grid-column: 8/-1;
-	/* Remove as content will dictate height */
-	height: 700px;
+#about-text p {
+	font-size: 25px;
+	margin-top: 35px;
+	padding-top: 15px;
+	padding-left: 10px;
+	text-align: left;
+}
+
+/*Contact starts here - Text*/
+
+#contact-text {
+	grid-column: 1/8;
+	height: 725px;
 }
 
 #contact {
@@ -264,38 +316,171 @@ you work on and the intended audience */
 	margin-bottom: 100px;
 }
 
-#contact-text {
-	grid-column: 1/8;
-	/* Remove as content will dictate height */
-	height: 700px;
-}
+/*Contact starts here - Form*/
 
 #contact-form {
 	grid-column: 8/-1;
-	/* Remove as content will dictate height */
-	height: 700px;
+	height: 725px;
 }
 
-/*Common page elements  */
+.containercontact{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: relative;
+	align-items: center;
+}
+
+.containercontact:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: url("img/bg.jpg") no-repeat center;
+	background-size: cover;
+	filter: blur(50px);
+	z-index: -1;
+}
+
+.btn{
+	width: 40%;
+	padding: 0.5rem 1rem;
+	background-color: #FD8A23;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+	border-radius: 6px;
+}
+
+.btn:hover{
+	background-color: #626262;
+	box-shadow: 0 8px 16px 0 rgba(250, 250, 250, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+textarea{
+	min-height: 190px;
+	min-width: 586px;
+}
+
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: solid #FD8A23 1px;
+	background-color: rgb(226, 226, 226);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+	border-radius: 6px;
+}
+
+.field:hover{
+	background-color: rgb(251, 251, 251);
+	box-shadow: 0 3px 6px 0 rgb(255, 128, 0), 0 3px 10px 0 rgba(243, 241, 239, 0.19);
+}
+
+.context_or{
+	font-size: 25px;
+	color: #FD8A23;	
+ 	margin-bottom: 10px;	
+ }
+
+.left{
+	background: url("img/bg.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+}
+
+.right{
+	padding: 25px 40px;
+}
+
+/*end of contact form */
+
+/*Common page elements - Footer Starts Here  */
 
 #footer-con {
-	background-color: #aaaaaa;
+	background-color: #1f1f1f;
 	padding-top: 50px;
 	padding-bottom: 20px;
+	padding-left: none;
 }
 
 #footer-logo {
 	grid-column: 1/3;
-	/* Remove as content will dictate height */
 	height: 80px;
+
 }
 
 #footer-nav {
 	grid-column: 3/-1;
-	/* Remove as content will dictate height */
-	height: 80px;
-	margin-bottom: 100px;
-}
+	height:88px;
+ }
+
+
+
+ 
+#main-nav {
+	grid-column: 6/11;
+	margin:0;
+	margin-top:10px;
+	margin-left:30px;
+	height:25px;
+	font-size: 18px;
+ }
+
+
+
+
+
+
+ #footer-nav ul {
+	margin-top: 35px;
+	margin-left: 30px;
+	padding:0;
+	font-size: 18px;
+ }
+
+ #footer-nav li {
+	display:inline;
+	margin-right: 28px;
+	}
+
+
+#footer-nav li:last-child {
+		margin-right: 0;
+	 }
+	 
+ #footer-nav li a {
+		color:#FDFDFD;
+	 }
+
+ 
+ #footer-nav li a:hover {
+		padding-bottom: 8px;
+		border-bottom: 3px solid #FD8A23;
+	   }
+	   
+	   /* look for an element that already has the class 'active' attached to it*/
+ #footer-nav li a.active {
+		  padding-bottom: 8px;
+		  border-bottom: 3px solid #FD8A23;
+	   }
+
+
+
+
+
+
+
+	   
+
 
 #footer-newsletter1 {
 	grid-column: 1/5;
@@ -317,46 +502,51 @@ you work on and the intended audience */
 
 
 
-/* gallery page */
 
-#gallery-hero-con {
-	background-color: #aaaaaa;
-	background: url("https://via.placeholder.com/1920x580");
-	height: 580px;
-}
 
-#gallery-text {
-	grid-column: 1/9;
-	/* Remove as content will dictate height */
-	height: 200px;
-	margin-top: 100px;
-}
 
-#gallery-controls {
-	margin-top: 200px;
-	grid-column: 6/8;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 
-.dot {
-	background-color: #dddddd;
-	height: 30px;
-	width: 30px;
-	border-radius: 50%;
-	margin: 5px;
-  }
 
-#gallery h2 {
-	grid-column: 1/-1;
-	text-align: center;
-  }
 
-.gallery-box {
-	background-color: #ddd;
-	grid-column: span 4 / span 4;
-	/* Remove as content will dictate height */
-	height: 507px;
-	margin-bottom: 20px;
-}
+/*footer custom by Tiago */
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
