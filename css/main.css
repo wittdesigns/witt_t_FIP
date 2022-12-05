@@ -10,6 +10,16 @@
 	margin: 0;
 }
 
+.box-color2 {
+	color: #fff;
+	background: rgba(0,0,0,0.40);
+	text-align: center;
+	margin: 0;
+	border-radius: 6px;
+}
+
+
+
 /*basic reset*/
 
 /*browsers have built in values for elements so we'll reset a few things to zero, you can add to this or remove items as needed*/
@@ -87,7 +97,7 @@ you work on and the intended audience */
 	width: 100%;
  } 
 
-#main-nav {
+#main-nav  {
 		grid-column: 6/11;
 		height:80px;
 		margin:0;
@@ -96,32 +106,41 @@ you work on and the intended audience */
 		font-size: 22px;
 	 }
 
+ #main-nav2 {
+		grid-column: 5/11;
+		height:80px;
+		margin:0;
+		margin-top:10px;
+		margin-left:65px;
+		font-size: 22px;
+	 }
 
-	 #main-nav ul {
+
+	 #main-nav ul,  #main-nav2 ul {
 		margin-top: 35px;
 		margin-left: 35px;
 		padding:0;
 	 }
 	 
-	 #main-nav li {
+	 #main-nav li,  #main-nav2 li {
 	 display:inline;
 	 margin-right: 28px;
 	 }
 	 
-	 #main-nav li:last-child {
+	 #main-nav li:last-child, #main-nav2 li:last-child {
 		margin-right: 0;
 	 }
 	 
-	 #main-nav li a {
+	 #main-nav li a,  #main-nav2 li a {
 		color:#FDFDFD;
 	 }
 	 
-	 #main-nav li a:hover {
+	 #main-nav li a:hover, 	 #main-nav2 li a:hover {
 	  padding-bottom: 8px;
 	  border-bottom: 3px solid #FD8A23;
 	 }
 	 
-	 #main-nav li a.active {
+	 #main-nav li a.active, 	 #main-nav2 li a.active {
 		padding-bottom: 8px;
 		border-bottom: 3px solid #FD8A23;
 	 }
@@ -184,6 +203,8 @@ you work on and the intended audience */
 	padding-top: 15px;
 	padding-left: 10px;
 	text-align: left;
+	padding-right: 20px;
+	line-height: 1.5em;
 }
 
 
@@ -237,9 +258,34 @@ you work on and the intended audience */
 	/* Remove as content will dictate height */
 	height: 200px;
 	margin-top: 100px;
-	font: 45px;
-	color: #ddd;
+
+
 }
+
+.textlightbox_title {
+	font-size: 25px;
+	color: #FD8A23;
+	line-height: 1.5em;
+}
+
+.textlightbox {
+	font-size: 18px;
+	color: #ebebeb;
+	line-height: 1.5em;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+
+.gallery-box-text {
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: center;
+	font-size: 25px;
+	color: #f9f9f9;
+	line-height: 1.5em;
+}
+
 
 #gallery-controls {
 	margin-top: 200px;
@@ -269,12 +315,11 @@ you work on and the intended audience */
 #gallery h2 {
 	grid-column: 1/-1;
 	text-align: center;
-
 	color: #ddd;
   }
 
 .gallery-box {
-	background-color: #ddd;
+	background-color: rgb(84, 84, 84);
 	grid-column: span 4 / span 4;
 	/* Remove as content will dictate height */
 	height: 507px;
@@ -322,7 +367,7 @@ you work on and the intended audience */
 }
 
 .product-box {
-	background-color: #ddd;
+	background-color: rgb(84, 84, 84);
 }
 
 
@@ -340,13 +385,15 @@ you work on and the intended audience */
 }
 
 #about-con {
-	background-color: #ddd;
+	background-color: rgb(84, 84, 84);
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
 #about-title {
 	text-align: center;
+	line-height: 1.7em;
+
 }
 
 /*our team image goes here*/
@@ -360,7 +407,10 @@ you work on and the intended audience */
 	margin-top: 35px;
 	padding-top: 15px;
 	padding-left: 10px;
+	padding-right: 20px;
 	text-align: left;
+	line-height: 1.7em;
+	padding-right: 20px;
 }
 
 /*Contact starts here - Text*/
@@ -466,15 +516,12 @@ textarea{
 
 #footer-con {
 	background-color: #1f1f1f;
-	padding-top: 50px;
-	padding-bottom: 20px;
-	padding-left: none;
 }
 
 .footer-logo {
 	grid-column: 1/3;
 	height:80px;
-
+	padding-top: 10px;
 	object-fit: cover;
 	width: 100%;
 
@@ -486,7 +533,6 @@ textarea{
  }
 
  #footer-nav ul {
-	margin-top: 35px;
 	margin-left: 535px;
 	padding:0;
  }
@@ -503,7 +549,6 @@ textarea{
  #footer-nav li a {
 	color:#FDFDFD;
 	font-size: 22px;
-	margin-top:10px;
 	margin-left:30px;
  }
  
@@ -586,9 +631,6 @@ textarea{
 	box-shadow: 0 8px 16px 0 rgba(250, 250, 250, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-
-
-
 /*social media starts*/
 
 #footer-social {
@@ -603,10 +645,10 @@ textarea{
 .social-links a {
 	width: 80px;
 	height: 80px;
-	text-align: center;
+	text-align: right;
 	text-decoration: none;
 	font-size: 35px;
-	margin-left: 10px;
+	margin-left: 27px;
 	color: #dadada;
 
   }
