@@ -119,7 +119,7 @@ you work on and the intended audience, we may go as low as 320px */
 
 #hero-con {
 	background-color: #aaaaaa;
-	background: url("https://via.placeholder.com/428x458");
+	background: url("../images/mobile/header_img.png");
 	height: 458px;
 }
 
