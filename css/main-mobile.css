@@ -204,7 +204,7 @@ you work on and the intended audience, we may go as low as 320px */
 
 #hero-gallery-con {
 	background-color: #aaaaaa;
-	background: url("https://via.placeholder.com/428x458");
+	background: url("../images/mobile/header_gallery_m.jpg");
 	height: 458px;
 }
 
@@ -213,7 +213,10 @@ you work on and the intended audience, we may go as low as 320px */
 	/* Remove as content will dictate height */
 	height: 350px;
 	margin-top: 20px;
+	font: 35px;
+	color: #ddd;
 }
+
 
 #gallery-controls {
 	grid-column: 1/-1;
@@ -228,6 +231,15 @@ you work on and the intended audience, we may go as low as 320px */
 	height: 30px;
 	width: 30px;
 	border-radius: 50%;
+	margin: 5px;
+  }
+
+  .dotselected {
+	background-color: #FD8A23;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	border: #FDFDFD;
 	margin: 5px;
   }
 
