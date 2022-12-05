@@ -10,6 +10,14 @@
 	margin: 0;
 }
 
+.box-color2 {
+	color: #fff;
+	background: rgba(0,0,0,0.40);
+	text-align: center;
+	margin: 0;
+	border-radius: 6px;
+}
+
 /*basic reset*/
 
 /*browsers have built in values for elements so we'll reset a few things to zero, you can add to this or remove items as needed*/
@@ -72,13 +80,29 @@ you work on and the intended audience, we may go as low as 320px */
 	padding-bottom: 10px;
 }
 
-#header-logo {
+ #header-logo {
 	grid-column: 1/3;
-	height: 80px;
-	margin-top:25px;
-	object-fit: cover;
-	width: 100%;
- } 
+	height:45px;
+	margin: 0%;
+	padding-left: 0%;
+}
+
+#header-logo  img{
+	display: inline-flex;
+	align-items: left;
+	margin : 0 auto;
+	width: 185px;
+	margin: 0%;
+	padding-left: 0%;
+	padding-top: 22px;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+
+
+}
+
+
+
 
 #mobile-nav {
 	grid-column: 4/-1;
@@ -188,17 +212,6 @@ you work on and the intended audience, we may go as low as 320px */
 	background-color: #1f1f1f;
 }
 
-#footer-logo {
-	grid-column: 1/3;
-	/* Remove as content will dictate height */
-	height:45px;
-margin-top: 15px;
-padding-top: 25px;
-	background-color: #ddd;
-	object-fit: cover;
-	width: 100%;
-}
-
 #footer-newsletter {
 	margin-top: 100px;
 	/* Remove as content will dictate height */
@@ -223,6 +236,22 @@ padding-top: 25px;
 	font: 35px;
 	color: #ddd;
 }
+
+
+.textlightbox_title {
+	font-size: 25px;
+	color: #FD8A23;
+	line-height: 1.5em;
+}
+
+.textlightbox {
+	font-size: 18px;
+	color: #ebebeb;
+	line-height: 1.5em;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
 
 
 #gallery-controls {
@@ -259,15 +288,107 @@ padding-top: 25px;
 
 .gallery-box {
 	grid-column: 1/-1;
-	background-color: #ddd;
+	background-color: rgb(84, 84, 84);
 	/* Remove as content will dictate height */
 	height: 507px;
 	margin-bottom: 20px;
 }
 
-#footer-newsletter2 {
-	margin-top: 20px;
-	height:40px;
-	grid-column: 1/3;
-	background-color: #ddd;
+
+.gallery-box-text {
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: center;
+	font-size: 25px;
+	color: #f9f9f9;
+	line-height: 1.5em;
 }
+
+
+
+
+
+.footer-logo {
+	grid-column: 1/3;
+	height:45px;
+	margin: 0%;
+	padding-left: 0%;
+}
+
+.footer-logo  img{
+	width: 185px;
+	margin: 0%;
+	padding-left: 0%;
+	align-items: left;
+	padding-top: 22px;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+
+
+}
+
+
+
+/*newsletter starts here*/
+
+#news-sign {
+	grid-column: 1/-1;
+	font-size: 20px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	color: #FDFDFD;
+}
+
+
+#footer-newsletter1 {
+grid-column:1/3;
+height:80px;
+}
+
+#footer-newsletter2 {
+grid-column:1/3;
+height: 80px;
+
+}
+
+
+.field{
+	width: 300px;
+	height: 25px;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: solid #FD8A23 1px;
+	background-color: rgb(226, 226, 226);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+	border-radius: 10px;
+}
+
+.field:hover{
+	background-color: rgb(251, 251, 251);
+	box-shadow: 0 3px 6px 0 rgb(255, 128, 0), 0 3px 10px 0 rgba(243, 241, 239, 0.19);
+}
+
+.btnsub{
+	width: 100px;
+	height: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #FD8A23;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+	border-radius: 10px;
+	}
+	
+	.btnsub:hover{
+	background-color: #626262;
+	box-shadow: 0 8px 16px 0 rgba(250, 250, 250, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	}
+
+
