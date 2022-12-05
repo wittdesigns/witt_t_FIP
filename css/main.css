@@ -10,6 +10,16 @@
 	margin: 0;
 }
 
+.box-color2 {
+	color: #fff;
+	background: rgba(0,0,0,0.40);
+	text-align: center;
+	margin: 0;
+	border-radius: 6px;
+}
+
+
+
 /*basic reset*/
 
 /*browsers have built in values for elements so we'll reset a few things to zero, you can add to this or remove items as needed*/
@@ -87,7 +97,7 @@ you work on and the intended audience */
 	width: 100%;
  } 
 
-#main-nav {
+#main-nav  {
 		grid-column: 6/11;
 		height:80px;
 		margin:0;
@@ -96,32 +106,41 @@ you work on and the intended audience */
 		font-size: 22px;
 	 }
 
+ #main-nav2 {
+		grid-column: 5/11;
+		height:80px;
+		margin:0;
+		margin-top:10px;
+		margin-left:65px;
+		font-size: 22px;
+	 }
 
-	 #main-nav ul {
+
+	 #main-nav ul,  #main-nav2 ul {
 		margin-top: 35px;
 		margin-left: 35px;
 		padding:0;
 	 }
 	 
-	 #main-nav li {
+	 #main-nav li,  #main-nav2 li {
 	 display:inline;
 	 margin-right: 28px;
 	 }
 	 
-	 #main-nav li:last-child {
+	 #main-nav li:last-child, #main-nav2 li:last-child {
 		margin-right: 0;
 	 }
 	 
-	 #main-nav li a {
+	 #main-nav li a,  #main-nav2 li a {
 		color:#FDFDFD;
 	 }
 	 
-	 #main-nav li a:hover {
+	 #main-nav li a:hover, 	 #main-nav2 li a:hover {
 	  padding-bottom: 8px;
 	  border-bottom: 3px solid #FD8A23;
 	 }
 	 
-	 #main-nav li a.active {
+	 #main-nav li a.active, 	 #main-nav2 li a.active {
 		padding-bottom: 8px;
 		border-bottom: 3px solid #FD8A23;
 	 }
@@ -184,6 +203,8 @@ you work on and the intended audience */
 	padding-top: 15px;
 	padding-left: 10px;
 	text-align: left;
+	padding-right: 20px;
+	line-height: 1.5em;
 }
 
 
@@ -237,9 +258,34 @@ you work on and the intended audience */
 	/* Remove as content will dictate height */
 	height: 200px;
 	margin-top: 100px;
-	font: 45px;
-	color: #ddd;
+
+
 }
+
+.textlightbox_title {
+	font-size: 25px;
+	color: #FD8A23;
+	line-height: 1.5em;
+}
+
+.textlightbox {
+	font-size: 18px;
+	color: #ebebeb;
+	line-height: 1.5em;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+
+.gallery-box-text {
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: center;
+	font-size: 25px;
+	color: #f9f9f9;
+	line-height: 1.5em;
+}
+
 
 #gallery-controls {
 	margin-top: 200px;
@@ -269,12 +315,11 @@ you work on and the intended audience */
 #gallery h2 {
 	grid-column: 1/-1;
 	text-align: center;
-
 	color: #ddd;
   }
 
 .gallery-box {
-	background-color: #ddd;
+	background-color: rgb(84, 84, 84);
 	grid-column: span 4 / span 4;
 	/* Remove as content will dictate height */
 	height: 507px;
@@ -347,6 +392,8 @@ you work on and the intended audience */
 
 #about-title {
 	text-align: center;
+	line-height: 1.7em;
+
 }
 
 /*our team image goes here*/
@@ -360,7 +407,10 @@ you work on and the intended audience */
 	margin-top: 35px;
 	padding-top: 15px;
 	padding-left: 10px;
+	padding-right: 20px;
 	text-align: left;
+	line-height: 1.7em;
+	padding-right: 20px;
 }
 
 /*Contact starts here - Text*/
@@ -603,10 +653,10 @@ textarea{
 .social-links a {
 	width: 80px;
 	height: 80px;
-	text-align: center;
+	text-align: right;
 	text-decoration: none;
 	font-size: 35px;
-	margin-left: 10px;
+	margin-left: 27px;
 	color: #dadada;
 
   }
